@@ -301,10 +301,10 @@ global:
 ## End of global
 
 ## Settings to for the Let's Encrypt ACME Issuer
-# certmanager-issuer:
+certmanager-issuer:
   ## The email address to register certificates requested from Let's Encrypt.
   ## Required if using Let's Encrypt.
-  # email: email@example.com
+  email: email@example.com
 
 ## Installation & configuration of stable/cert-manager
 ## See requirements.yaml for current version
